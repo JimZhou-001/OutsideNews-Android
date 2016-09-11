@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/share"
+        android:title="分享"/>
+
+    <item
+        android:id="@+id/screenshot"
+        android:title="截屏"/>
+
+    <item
+        android:id="@+id/textsize"
+        android:title="正文字号"/>
+
+    <item
+        android:id="@+id/night"
+        android:title="夜间模式"/>
+
+    <item
+        android:id="@+id/feedback"
+        android:title="意见反馈"/>
+
+</menu>
