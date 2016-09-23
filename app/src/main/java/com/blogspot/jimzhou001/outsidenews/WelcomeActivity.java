@@ -54,6 +54,12 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onStop() {
+        super.onStop();
+        finish();
+    }
+
+    @Override
     public void onBackPressed() {
 
         if ((System.currentTimeMillis() - exitTime) > 2000) {
